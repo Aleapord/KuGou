@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="29199638-c146-4531-a3be-c4de41166044" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go Application" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="/usr/local/Cellar/go/1.15.5/libexec" />
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="ProjectId" id="1l6QZhIrhH17HKHOUjGOM24vqZY" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go Application" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
+  </component>
+  <component name="RunManager" selected="Go Build.go build haoting.go">
+    <configuration name="go build haoting.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="haoting_pachong" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/haoting.go" />
+      <package value="haoting_pachong" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build haoting_pachong" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="haoting_pachong" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/haoting.go" />
+      <package value="haoting_pachong" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build haoting.go" />
+        <item itemvalue="Go Build.go build haoting_pachong" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+    <environment>
+      <map>
+        <entry key="GOPROXY" value="https://mirrors.aliyun.com/goproxy/" />
+        <entry key="GOSUMDB" value="off" />
+      </map>
+    </environment>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="886" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607011555132">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state x="886" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1920.977@0.23.1920.977" timestamp="1607011555132" />
+    <state width="1631" height="259" key="GridCell.Tab.0.bottom" timestamp="1607012363501">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state width="1631" height="259" key="GridCell.Tab.0.bottom/0.23.1920.977@0.23.1920.977" timestamp="1607012363501" />
+    <state width="1388" height="259" key="GridCell.Tab.0.bottom/0.23.1920.978@0.23.1920.978" timestamp="1607008430218" />
+    <state width="1631" height="259" key="GridCell.Tab.0.center" timestamp="1607012363500">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state width="1631" height="259" key="GridCell.Tab.0.center/0.23.1920.977@0.23.1920.977" timestamp="1607012363500" />
+    <state width="1388" height="259" key="GridCell.Tab.0.center/0.23.1920.978@0.23.1920.978" timestamp="1607008430217" />
+    <state width="1631" height="259" key="GridCell.Tab.0.left" timestamp="1607012363500">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state width="1631" height="259" key="GridCell.Tab.0.left/0.23.1920.977@0.23.1920.977" timestamp="1607012363500" />
+    <state width="1388" height="259" key="GridCell.Tab.0.left/0.23.1920.978@0.23.1920.978" timestamp="1607008430217" />
+    <state width="1631" height="259" key="GridCell.Tab.0.right" timestamp="1607012363500">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state width="1631" height="259" key="GridCell.Tab.0.right/0.23.1920.977@0.23.1920.977" timestamp="1607012363500" />
+    <state width="1388" height="259" key="GridCell.Tab.0.right/0.23.1920.978@0.23.1920.978" timestamp="1607008430217" />
+    <state width="1388" height="320" key="GridCell.Tab.1.bottom" timestamp="1606982328534">
+      <screen x="0" y="23" width="1920" height="978" />
+    </state>
+    <state width="1388" height="320" key="GridCell.Tab.1.bottom/0.23.1920.977@0.23.1920.977" timestamp="1606982117376" />
+    <state width="1388" height="320" key="GridCell.Tab.1.bottom/0.23.1920.978@0.23.1920.978" timestamp="1606982328534" />
+    <state width="1388" height="320" key="GridCell.Tab.1.center" timestamp="1606982328534">
+      <screen x="0" y="23" width="1920" height="978" />
+    </state>
+    <state width="1388" height="320" key="GridCell.Tab.1.center/0.23.1920.977@0.23.1920.977" timestamp="1606982117371" />
+    <state width="1388" height="320" key="GridCell.Tab.1.center/0.23.1920.978@0.23.1920.978" timestamp="1606982328534" />
+    <state width="1388" height="320" key="GridCell.Tab.1.left" timestamp="1606982328533">
+      <screen x="0" y="23" width="1920" height="978" />
+    </state>
+    <state width="1388" height="320" key="GridCell.Tab.1.left/0.23.1920.977@0.23.1920.977" timestamp="1606982117371" />
+    <state width="1388" height="320" key="GridCell.Tab.1.left/0.23.1920.978@0.23.1920.978" timestamp="1606982328533" />
+    <state width="1388" height="320" key="GridCell.Tab.1.right" timestamp="1606982328534">
+      <screen x="0" y="23" width="1920" height="978" />
+    </state>
+    <state width="1388" height="320" key="GridCell.Tab.1.right/0.23.1920.977@0.23.1920.977" timestamp="1606982117374" />
+    <state width="1388" height="320" key="GridCell.Tab.1.right/0.23.1920.978@0.23.1920.978" timestamp="1606982328534" />
+    <state x="772" y="200" width="584" height="798" key="find.popup" timestamp="1606998152992">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state x="772" y="200" width="584" height="798" key="find.popup/0.23.1920.977@0.23.1920.977" timestamp="1606998152992" />
+  </component>
+</project>
