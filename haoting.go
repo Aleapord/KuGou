@@ -89,8 +89,8 @@ func (h *KuGou) Downolad(index int) {
 		}
 	}
 
-	bs := getBody(json_url)
-	_ = ioutil.WriteFile(h.Path+"/"+h.Musics[index].FileName+".mp3", bs, 0755)
+	mp3 := getBody(json_url)
+	_ = ioutil.WriteFile(h.Path+"/"+h.Musics[index].FileName+".mp3", mp3, 0755)
 }
 func main() {
 	var key string
