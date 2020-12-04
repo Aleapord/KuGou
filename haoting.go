@@ -60,29 +60,19 @@ func (h *KuGou) Search() {
 		panic(err)
 	}
 
-	for s2, i := range json_obj {
-		if s2 == "data" {
-			ws := i.(map[string]interface{})
-			for s3, i2 := range ws {
-				if s3 == "lists" {
-					i2 := i2.([]interface{})
-					for _, i3 := range i2 {
-						i3 := i3.(map[string]interface{})
-						var music = new(Music)
-						music.Album = i3["AlbumName"].(string)
-						music.Author = i3["SingerName"].(string)
-						compiler, _ = regexp.Compile("<em>|</em>")
-						name := compiler.ReplaceAllString(i3["FileName"].(string), "")
-						music.MusicHash = i3["FileHash"].(string)
-						music.MusicId = i3["AlbumID"].(string)
-						music.FileName = name
-						h.Musics = append(h.Musics, *music)
-					}
-				}
-			}
-		}
+	s2 := json_obj["data"]
+	for _, i3 := range s2.(map[string]interface{})["lists"].([]interface{}) {
+		i3 := i3.(map[string]interface{})
+		var music = new(Music)
+		music.Album = i3["AlbumName"].(string)
+		music.Author = i3["SingerName"].(string)
+		compiler, _ = regexp.Compile("<em>|</em>")
+		name := compiler.ReplaceAllString(i3["FileName"].(string), "")
+		music.MusicHash = i3["FileHash"].(string)
+		music.MusicId = i3["AlbumID"].(string)
+		music.FileName = name
+		h.Musics = append(h.Musics, *music)
 	}
-
 }
 
 func (h *KuGou) Downolad(index int) {

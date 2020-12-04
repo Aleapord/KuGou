@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="29199638-c146-4531-a3be-c4de41166044" name="Default Changelist" comment="" />
+    <list default="true" id="29199638-c146-4531-a3be-c4de41166044" name="Default Changelist" comment="ok">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/haoting.go" beforeDir="false" afterPath="$PROJECT_DIR$/haoting.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,10 +18,14 @@
     </option>
   </component>
   <component name="GOROOT" path="/usr/local/Cellar/go/1.15.5/libexec" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
   </component>
   <component name="ProjectId" id="1l6QZhIrhH17HKHOUjGOM24vqZY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -60,6 +67,21 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ok" />
+    <option name="LAST_COMMIT_MESSAGE" value="ok" />
+  </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
     <environment>
@@ -74,25 +96,29 @@
       <screen x="0" y="23" width="1920" height="977" />
     </state>
     <state x="886" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1920.977@0.23.1920.977" timestamp="1607011555132" />
-    <state width="1631" height="259" key="GridCell.Tab.0.bottom" timestamp="1607012363501">
+    <state x="878" y="419" key="Github.ShareDialog" timestamp="1607012592423">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
-    <state width="1631" height="259" key="GridCell.Tab.0.bottom/0.23.1920.977@0.23.1920.977" timestamp="1607012363501" />
+    <state x="878" y="419" key="Github.ShareDialog/0.23.1920.977@0.23.1920.977" timestamp="1607012592423" />
+    <state width="1631" height="259" key="GridCell.Tab.0.bottom" timestamp="1607012631764">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state width="1631" height="259" key="GridCell.Tab.0.bottom/0.23.1920.977@0.23.1920.977" timestamp="1607012631764" />
     <state width="1388" height="259" key="GridCell.Tab.0.bottom/0.23.1920.978@0.23.1920.978" timestamp="1607008430218" />
-    <state width="1631" height="259" key="GridCell.Tab.0.center" timestamp="1607012363500">
+    <state width="1631" height="259" key="GridCell.Tab.0.center" timestamp="1607012631763">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
-    <state width="1631" height="259" key="GridCell.Tab.0.center/0.23.1920.977@0.23.1920.977" timestamp="1607012363500" />
+    <state width="1631" height="259" key="GridCell.Tab.0.center/0.23.1920.977@0.23.1920.977" timestamp="1607012631763" />
     <state width="1388" height="259" key="GridCell.Tab.0.center/0.23.1920.978@0.23.1920.978" timestamp="1607008430217" />
-    <state width="1631" height="259" key="GridCell.Tab.0.left" timestamp="1607012363500">
+    <state width="1631" height="259" key="GridCell.Tab.0.left" timestamp="1607012631762">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
-    <state width="1631" height="259" key="GridCell.Tab.0.left/0.23.1920.977@0.23.1920.977" timestamp="1607012363500" />
+    <state width="1631" height="259" key="GridCell.Tab.0.left/0.23.1920.977@0.23.1920.977" timestamp="1607012631762" />
     <state width="1388" height="259" key="GridCell.Tab.0.left/0.23.1920.978@0.23.1920.978" timestamp="1607008430217" />
-    <state width="1631" height="259" key="GridCell.Tab.0.right" timestamp="1607012363500">
+    <state width="1631" height="259" key="GridCell.Tab.0.right" timestamp="1607012631763">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
-    <state width="1631" height="259" key="GridCell.Tab.0.right/0.23.1920.977@0.23.1920.977" timestamp="1607012363500" />
+    <state width="1631" height="259" key="GridCell.Tab.0.right/0.23.1920.977@0.23.1920.977" timestamp="1607012631763" />
     <state width="1388" height="259" key="GridCell.Tab.0.right/0.23.1920.978@0.23.1920.978" timestamp="1607008430217" />
     <state width="1388" height="320" key="GridCell.Tab.1.bottom" timestamp="1606982328534">
       <screen x="0" y="23" width="1920" height="978" />
@@ -114,6 +140,10 @@
     </state>
     <state width="1388" height="320" key="GridCell.Tab.1.right/0.23.1920.977@0.23.1920.977" timestamp="1606982117374" />
     <state width="1388" height="320" key="GridCell.Tab.1.right/0.23.1920.978@0.23.1920.978" timestamp="1606982328534" />
+    <state x="621" y="252" key="Vcs.Push.Dialog.v2" timestamp="1607012569908">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state x="621" y="252" key="Vcs.Push.Dialog.v2/0.23.1920.977@0.23.1920.977" timestamp="1607012569908" />
     <state x="772" y="200" width="584" height="798" key="find.popup" timestamp="1606998152992">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
