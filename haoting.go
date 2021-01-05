@@ -3,6 +3,8 @@ package main
 import (
 	"encoding/json"
 	"fmt"
+	"github.com/jinzhu/gorm"
+	_ "github.com/jinzhu/gorm/dialects/sqlite"
 	"io/ioutil"
 	"net/http"
 	"net/url"
@@ -23,10 +25,22 @@ type KuGou struct {
 	Path    string
 	Musics  []Music
 	Keyword string
+	db      *gorm.DB
+}
+type User struct {
+	Id       int
+	Name     string
+	Password string
 }
 
-func (h KuGou) Init() {
+func (h *KuGou) Init() {
 	_ = os.Mkdir(h.Path, 0755)
+	var err error
+	h.db, err = gorm.Open("sqlite3", h.Path+"/data.db")
+	if err != nil {
+		panic(err)
+	}
+	h.db.AutoMigrate(new(User))
 }
 
 func getBody(url string) []byte {
@@ -88,10 +102,36 @@ func (h *KuGou) Downolad(index int) {
 			json_url = i.(string)
 		}
 	}
-
 	mp3 := getBody(json_url)
 	_ = ioutil.WriteFile(h.Path+"/"+h.Musics[index].FileName+".mp3", mp3, 0755)
 }
+func (h KuGou) SignIn(name string, password string) string {
+	var temp_user []User
+	h.db.Where("name=?", name).Find(&temp_user)
+	if len(temp_user) != 0 {
+		return "has exits"
+	} else {
+		h.db.Create(&User{Name: name, Password: password})
+		return "success"
+	}
+}
+
+func (h KuGou) Login(name string, password string) string {
+	var temp_user []User
+	h.db.Where("name=?", name).Find(&temp_user)
+	if len(temp_user) == 0 {
+		return "not exits"
+	} else if len(temp_user) == 1 {
+		if temp_user[0].Password == password {
+			return "success"
+		} else {
+			return "err password"
+		}
+	}
+	return "err"
+
+}
+
 func main() {
 	var key string
 	fmt.Println("输入歌曲名:")
@@ -102,6 +142,7 @@ func main() {
 		Musics:  make([]Music, 0),
 	}
 	h.Init()
+
 	h.Search()
 	for i, s2 := range h.Musics {
 		fmt.Println(i+1, s2.FileName)
