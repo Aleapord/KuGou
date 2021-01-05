@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="29199638-c146-4531-a3be-c4de41166044" name="Default Changelist" comment="ok">
+    <list default="true" id="29199638-c146-4531-a3be-c4de41166044" name="Default Changelist" comment="add login and sign up">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/haoting.go" beforeDir="false" afterPath="$PROJECT_DIR$/haoting.go" afterDir="false" />
     </list>
@@ -17,7 +35,7 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" path="/usr/local/Cellar/go/1.15.5/libexec" />
+  <component name="GOROOT" path="/usr/local/go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -32,10 +50,13 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go Application" />
+    <property name="GO_FMT" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager" selected="Go Build.go build haoting.go">
     <configuration name="go build haoting.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -63,9 +84,9 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -77,10 +98,12 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ok" />
-    <option name="LAST_COMMIT_MESSAGE" value="ok" />
+    <MESSAGE value="add login and sign up" />
+    <option name="LAST_COMMIT_MESSAGE" value="add login and sign up" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -100,24 +123,28 @@
       <screen x="0" y="23" width="1920" height="977" />
     </state>
     <state x="878" y="419" key="Github.ShareDialog/0.23.1920.977@0.23.1920.977" timestamp="1607012592423" />
-    <state width="1631" height="259" key="GridCell.Tab.0.bottom" timestamp="1607063168033">
-      <screen x="0" y="23" width="1920" height="977" />
+    <state width="1878" height="266" key="GridCell.Tab.0.bottom" timestamp="1609829009084">
+      <screen x="0" y="23" width="1920" height="984" />
     </state>
+    <state width="1878" height="266" key="GridCell.Tab.0.bottom/-1920.141.1920.1057/0.23.1920.984@0.23.1920.984" timestamp="1609829009084" />
     <state width="1631" height="259" key="GridCell.Tab.0.bottom/0.23.1920.977@0.23.1920.977" timestamp="1607063168033" />
     <state width="1388" height="259" key="GridCell.Tab.0.bottom/0.23.1920.978@0.23.1920.978" timestamp="1607008430218" />
-    <state width="1631" height="259" key="GridCell.Tab.0.center" timestamp="1607063168032">
-      <screen x="0" y="23" width="1920" height="977" />
+    <state width="1878" height="266" key="GridCell.Tab.0.center" timestamp="1609829009084">
+      <screen x="0" y="23" width="1920" height="984" />
     </state>
+    <state width="1878" height="266" key="GridCell.Tab.0.center/-1920.141.1920.1057/0.23.1920.984@0.23.1920.984" timestamp="1609829009084" />
     <state width="1631" height="259" key="GridCell.Tab.0.center/0.23.1920.977@0.23.1920.977" timestamp="1607063168032" />
     <state width="1388" height="259" key="GridCell.Tab.0.center/0.23.1920.978@0.23.1920.978" timestamp="1607008430217" />
-    <state width="1631" height="259" key="GridCell.Tab.0.left" timestamp="1607063168031">
-      <screen x="0" y="23" width="1920" height="977" />
+    <state width="1878" height="266" key="GridCell.Tab.0.left" timestamp="1609829009083">
+      <screen x="0" y="23" width="1920" height="984" />
     </state>
+    <state width="1878" height="266" key="GridCell.Tab.0.left/-1920.141.1920.1057/0.23.1920.984@0.23.1920.984" timestamp="1609829009083" />
     <state width="1631" height="259" key="GridCell.Tab.0.left/0.23.1920.977@0.23.1920.977" timestamp="1607063168031" />
     <state width="1388" height="259" key="GridCell.Tab.0.left/0.23.1920.978@0.23.1920.978" timestamp="1607008430217" />
-    <state width="1631" height="259" key="GridCell.Tab.0.right" timestamp="1607063168032">
-      <screen x="0" y="23" width="1920" height="977" />
+    <state width="1878" height="266" key="GridCell.Tab.0.right" timestamp="1609829009084">
+      <screen x="0" y="23" width="1920" height="984" />
     </state>
+    <state width="1878" height="266" key="GridCell.Tab.0.right/-1920.141.1920.1057/0.23.1920.984@0.23.1920.984" timestamp="1609829009084" />
     <state width="1631" height="259" key="GridCell.Tab.0.right/0.23.1920.977@0.23.1920.977" timestamp="1607063168032" />
     <state width="1388" height="259" key="GridCell.Tab.0.right/0.23.1920.978@0.23.1920.978" timestamp="1607008430217" />
     <state width="1388" height="320" key="GridCell.Tab.1.bottom" timestamp="1606982328534">
@@ -140,11 +167,16 @@
     </state>
     <state width="1388" height="320" key="GridCell.Tab.1.right/0.23.1920.977@0.23.1920.977" timestamp="1606982117374" />
     <state width="1388" height="320" key="GridCell.Tab.1.right/0.23.1920.978@0.23.1920.978" timestamp="1606982328534" />
-    <state x="621" y="252" key="Vcs.Push.Dialog.v2" timestamp="1607063495090">
-      <screen x="0" y="23" width="1920" height="978" />
+    <state x="621" y="253" key="Vcs.Push.Dialog.v2" timestamp="1609828840513">
+      <screen x="0" y="23" width="1920" height="984" />
     </state>
+    <state x="621" y="253" key="Vcs.Push.Dialog.v2/-1920.141.1920.1057/0.23.1920.984@0.23.1920.984" timestamp="1609828840513" />
     <state x="621" y="252" key="Vcs.Push.Dialog.v2/0.23.1920.977@0.23.1920.977" timestamp="1607063306269" />
     <state x="621" y="252" key="Vcs.Push.Dialog.v2/0.23.1920.978@0.23.1920.978" timestamp="1607063495090" />
+    <state x="763" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609828818353">
+      <screen x="0" y="23" width="1920" height="984" />
+    </state>
+    <state x="763" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.141.1920.1057/0.23.1920.984@0.23.1920.984" timestamp="1609828818353" />
     <state x="772" y="200" width="584" height="798" key="find.popup" timestamp="1606998152992">
       <screen x="0" y="23" width="1920" height="977" />
     </state>

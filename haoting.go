@@ -40,7 +40,9 @@ func (h *KuGou) Init() {
 	if err != nil {
 		panic(err)
 	}
-	h.db.AutoMigrate(new(User))
+	if !h.db.HasTable(new(User)) {
+		h.db.AutoMigrate(new(User))
+	}
 }
 
 func getBody(url string) []byte {
